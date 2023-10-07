@@ -18,7 +18,6 @@ export default function RootLayout({
   const links = [
     { href: '/', label: 'Home' },
     { href: '/docs', label: 'Docs' },
-    { href: '/todos', label: 'App' },
   ]
 
   return (
