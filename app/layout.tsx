@@ -18,12 +18,13 @@ export default function RootLayout({
   const links = [
     { href: '/', label: 'Home' },
     { href: '/docs', label: 'Docs' },
+    { href: '/signup', label: 'Signup Builder' },
   ]
 
   return (
     <html lang="en">
       <body className={`${inter.className} p-10 h-screen w-screen`}>
-        <header className="mb-20">
+        {/* <header className="mb-20">
           <nav>
             <ul className="flex items-center">
               {links.map(({ href, label }) => (
@@ -33,7 +34,7 @@ export default function RootLayout({
               ))}
             </ul>
           </nav>
-        </header>
+        </header> */}
         {children}
       </body>
     </html>
